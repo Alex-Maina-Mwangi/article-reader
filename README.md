@@ -23,7 +23,7 @@ I wrote a python script (`main.py`) that incorporated a number of libraries name
 
 See also the `virtualenv` file `requirements.txt` for more details of the libraries used.
 
-In a nutshell this script iterates through a list of PMCID numbers and reads fulltext XML and <ins>extract</ins> the study site data and <ins>transforms</ins> this mainly unstructure text into a structured format and finally <ins>loads</ins> this data neatly into a csv file.
+In a nutshell this script iterates through a list of PMCID numbers and reads fulltext XML and <ins>extract</ins> the study site data and <ins>transforms</ins> this mainly unstructure text into a structured format and finally <ins>loads</ins> this data neatly into a `.csv` file.
 
 # What is a PMCID number?
 
