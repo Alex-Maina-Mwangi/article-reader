@@ -21,7 +21,7 @@ I wrote a python script [`main.py`](https://github.com/Alex-Maina-Mwangi/article
 4. pycountry
 5. openpyxl
 
-See also the `virtualenv` file `requirements.txt` for more details of the libraries used.
+See also the `virtualenv` file [`requirements.txt`](https://github.com/Alex-Maina-Mwangi/article-reader/blob/main/requirements.txt) for more details of the libraries used.
 
 In a nutshell this script iterates through a list of PMCID numbers and reads fulltext XML and <ins>extract</ins> the study site data and <ins>transforms</ins> this mainly unstructure text into a structured format and finally <ins>loads</ins> this data neatly into a `.csv` file.
 
