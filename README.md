@@ -14,14 +14,14 @@ Obviously we opted for the second option.
 # How did we implement the second option?
 I utilised the freely available europepmc Articles RESTful API https://europepmc.org/RestfulWebService specifically the `GET fullTextXML` module.
 
-We (I) wrote a python script (main.py) that incorporated a number of libraries namely:
+We (I) wrote a python script (`main.py`) that incorporated a number of libraries namely:
 1. BeautifulSoup
 2. geonamescache
 3. spacy
 4. pycountry
 5. openpyxl
 
-See also the `virtualenv` file requirements.txt for more details of the libraries used.
+See also the `virtualenv` file `requirements.txt` for more details of the libraries used.
 
 In a nutshell this script iterates through a list of PMCID numbers and reads fulltext XML and extract the study site data and finally loads this data neatly into an excel file.
 
