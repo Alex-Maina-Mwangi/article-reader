@@ -9,12 +9,12 @@ We had two options:
 1. Have someone( myself the Librarian) manually read through all the 250 articles and extract the data manually.
 2. Think and come up with an automated solution ( I am happiest when doing this) to read the 250 articles and load the data neatly in a .csv file for further analysis in Pandas.
 
-Obviously we opted for the second option.
+Obviously, I chose the second option.
 
 # How did we implement the second option?
 I utilised the freely available europepmc Articles RESTful API https://europepmc.org/RestfulWebService specifically the `GET fullTextXML` module.
 
-We (I) wrote a python script (`main.py`) that incorporated a number of libraries namely:
+I wrote a python script (`main.py`) that incorporated a number of libraries namely:
 1. BeautifulSoup
 2. geonamescache
 3. spacy
