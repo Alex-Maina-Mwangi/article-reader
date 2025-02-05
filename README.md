@@ -2,7 +2,7 @@
 A utility that uses europepmc Articles RESTful API to read the full test of articles and extract data.
 
 # Background
-At the KEMRI-Wellcome Trust Research Programme we were faced with the problem of reading 250 peer-reviewed scientific articles and extract data on the sites where the data was collected from(primarily get the study sites). We were more interested in countries where we collected the data and in the case of Kenya(where we are based). Furthermore, we were interested in knowing which counties we conducted our research from in all studies carried out in the republic of Kenya where we are domiciled.
+At the KEMRI-Wellcome Trust Research Programme we were faced with the problem of reading 250 peer-reviewed scientific articles and extract data on the sites where the data was collected from(primarily get the study sites). We were more interested in countries where we collected the data and in the case of Kenya(where we are based), we were interested in knowing which counties we conducted our research in.
 
 # How could we achieve this given a tight reporting deadline?
 We had two options:
