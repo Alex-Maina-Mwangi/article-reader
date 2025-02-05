@@ -5,7 +5,7 @@ A utility that uses europepmc Articles RESTful API to read the full test of arti
 At the KEMRI-Wellcome Trust Research Programme we were faced with the problem of reading 250 peer-reviewed scientific articles and extract data on the sites where the data was collected from(primarily get the study sites). We were more interested in countries where we collected the data and in the case of Kenya(where we are based). Furthermore, we were interested in knowing which counties we conducted our research from in all studies carried out in the republic of Kenya where we are domiciled.
 
 # How could we achieve this given a tight reporting deadline?
-We had to options:
+We had two options:
 1. Have someone( myself the Librarian) manually read through all the 250 articles and extract the data manually.
 2. Think and come up with an automated solution ( I am happiest when doing this) to read the 250 articles and load the data neatly in a .csv file for further analysis in Pandas.
 
