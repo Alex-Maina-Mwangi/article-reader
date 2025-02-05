@@ -25,7 +25,7 @@ See also the `virtualenv` file `requirements.txt` for more details of the librar
 
 In a nutshell this script iterates through a list of PMCID numbers and reads fulltext XML and extract the study site data and finally loads this data neatly into an excel file.
 
-# What is a PMCID number
+# What is a PMCID number?
 
 According to the US National Institutes of Health, a PMCID number otherwise known in full as "PubMed Central Identifier," is a unique identification number assigned to a full-text scientific article deposited in the PubMed Central (PMC) database,
 
