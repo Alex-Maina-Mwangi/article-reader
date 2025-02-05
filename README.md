@@ -14,7 +14,7 @@ Obviously, I chose the second option.
 # How did we implement the second option?
 I utilised the freely available europepmc Articles RESTful API https://europepmc.org/RestfulWebService specifically the `GET fullTextXML` module.
 
-I wrote a python script (`main.py`) that incorporated a number of libraries namely:
+I wrote a python script [`main.py`](https://github.com/Alex-Maina-Mwangi/article-reader/blob/main/main.py) that incorporated a number of libraries namely:
 1. BeautifulSoup
 2. geonamescache
 3. spacy
