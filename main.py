@@ -94,7 +94,7 @@ sheet.cell(row=1, column=2, value="Countries")
 sheet.cell(row=1, column=3, value="Counties")
 sheet.cell(row=1, column=4, value="url")
 
-# Write the data to Excel starting from the second row
+# Write the data to excel
 row = 2
 for record in data:
     col = 1
